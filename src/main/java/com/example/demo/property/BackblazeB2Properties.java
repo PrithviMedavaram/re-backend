@@ -9,6 +9,8 @@ public class BackblazeB2Properties {
 
     private String accountId;
     private String applicationKey;
+    private String bucketName;
+
 
     public String getAccountId() {
         return accountId;
@@ -24,5 +26,12 @@ public class BackblazeB2Properties {
 
     public void setApplicationKey(String applicationKey) {
         this.applicationKey = applicationKey;
+    }
+
+    public String getBucketName() {
+        return bucketName;
+    }
+    public void setBucketName(String bucketName) {
+        this.bucketName = bucketName;
     }
 }

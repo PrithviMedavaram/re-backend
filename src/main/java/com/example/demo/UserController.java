@@ -1,8 +1,8 @@
 package com.example.demo;
 
-import com.example.demo.dto.GoogleOAuthLogin;
-import com.example.demo.dto.PhoneOtpLogin;
-import com.example.demo.dto.UsernamePasswordLogin;
+import com.example.demo.service.login.GoogleOAuthLogin;
+import com.example.demo.service.login.PhoneOtpLogin;
+import com.example.demo.service.login.UsernamePasswordLogin;
 import com.example.demo.model.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.demo.UserService;
+import com.example.demo.service.UserService;
 
 @RestController
 @RequestMapping("/api")

@@ -1,15 +1,17 @@
-package com.example.demo.property;
+package com.example.demo.model;
+
+import java.util.Map;
 
 public class UploadFileResponse {
     private String fileId;
     private String fileName;
-    private String fileUrl;
+    private Map info;
 
     // Constructors
-    public UploadFileResponse(String fileId, String fileName, String fileUrl) {
+    public UploadFileResponse(String fileId, String fileName, Map info) {
         this.fileId = fileId;
         this.fileName = fileName;
-        this.fileUrl = fileUrl;
+        this.info = info;
     }
 
     // Getters and setters
@@ -29,11 +31,11 @@ public class UploadFileResponse {
         this.fileName = fileName;
     }
 
-    public String getFileUrl() {
-        return fileUrl;
+    public Map getFileUrl() {
+        return info;
     }
 
-    public void setFileUrl(String fileUrl) {
-        this.fileUrl = fileUrl;
+    public void setFileUrl(Map info) {
+        this.info = info;
     }
 }

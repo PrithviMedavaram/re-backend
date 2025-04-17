@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.example.demo.service.login;
 
 public class UsernamePasswordLogin {
     private String username;

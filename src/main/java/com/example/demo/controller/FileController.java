@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.backblaze.b2.client.exceptions.B2Exception;
-import com.example.demo.property.UploadFileResponse;
+import com.example.demo.model.UploadFileResponse;
 import com.example.demo.service.BackblazeB2Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
